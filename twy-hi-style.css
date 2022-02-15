@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+
+.inner-container{
+  background-color: #ffffff;
+	padding:1em;
+}
+
+
+.inner-body-container{
+	background-color:#E5E0DC;
+	padding:1.8em;
+	width: 70%;
+	border-radius: 7px;
+	margin: auto;
+
+}
+
+@media (min-width: 1900px) {
+	.inner-body-container{
+		background-color:#E5E0DC;
+		padding: 1em;
+		width: 45%;
+		border-radius: 7px;
+		margin: auto;
+
+	}
+ }
+
+ @media (max-width:650px) { /*mobile*/
+	 .inner-container{
+	 	padding:0em;
+	 }
+
+ 	.inner-body-container{
+ 		width: 100%;
+		padding:0.7em;
+ 	}
+  }
+
+
+
+.logotwyford img{
+ margin-right:1em;
+ border-radius: 7px;
+}
+
+
+/*flex box responsive for logo and header*/
+
+.inner-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1250px) { /*making it small or shrink*/
+  .inner-flex-container img{
+    display: none;
+  }
+}
+
+@media (min-width: 1510px) { /*making it large*/
+ .logotwyford img{
+	 height: 115px;
+ }
+}
+
+
+
+.inner-body-container  h2{
+	color: #b30000;
+	font-size: 27.5px;
+}
+
+label{
+	font-weight: 500;
+}
+
+
+.inner-container h1{
+  font-size:26px;
+}
+
+
+.inner-header-container{
+	border: 3px solid #bbbcbd;
+  background-color:#c70439;
+	border-radius: 7px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  padding:0.8em 1.8em 0.4em 2em;
+  margin-bottom: 1.3em;
+}
+
+
+
+.data-protection-statement h3{
+  font-size: 20px;
+
+}
+.data-protection-statement p{
+	font-size: 12px;
+}
+
+
+.inner-container h4{
+  font-size: 13px;
+  word-spacing: 3px;
+
+}
+
+
+p{
+	font-size: 15px;
+	 padding: 0.1em 0 0.5em 0;
+}
+
+span{
+	font-size: 18px;
+  color:red;
+}
+
+
+/*CALENDAR DROP DOWN*/
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+
+label {
+  display: block;
+}
+
+.dob{
+	margin-left: -15px;
+	margin-top: 40px;
+}
+.dob input {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 5px 5px;
+  width: 190px;
+  color: gray;
+}
+
+#free-textarea-one{
+	display: none;
+
+}
+
+.btn{
+	margin:0 0 1em 0.5em;
+}
+
+.form-check-label{
+	font-size:12px;
+}
+
+.submit{
+	text-align: center;
+}
+.sub-option-titles{
+	color: darkred;
+}
+
+#current_school_details{
+	display: none;
+}
+#current_school_details_two{
+	display: none;
+}

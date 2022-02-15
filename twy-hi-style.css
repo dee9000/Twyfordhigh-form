@@ -52,6 +52,9 @@ body {
  margin-right:1em;
  border-radius: 7px;
 }
+.info p{
+font-weight: bold;
+}
 
 
 /*flex box responsive for logo and header*/
@@ -190,4 +193,7 @@ label {
 }
 #current_school_details_two{
 	display: none;
+}
+.table-responsive{
+	width: 100%;
 }

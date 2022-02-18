@@ -170,15 +170,41 @@ label {
 
 }
 
-.btn{
+
+.btn-custom{
 	margin:0 0 1em 0.5em;
+	padding:0.5em 0.8em 0.5em 0.8em;
+	border-radius: 5px;
+	background-color:#c70439;
+	color: #ffff;
+	border: none;
+	transition: 0.2s;
 }
+.btn-custom:hover{
+background-color:#c70439;
+}
+
+.btn-custom-outline{
+	border:1px solid #c70439;
+	border-radius: 5px;
+	margin:0 0 1em 0.5em;
+	padding:0.3em 0.8em 0.3em 0.8em;
+	transition: 0.2s;
+	color:#c70439;
+}
+
+.btn-custom-outline:hover{
+	background-color: #c70439;
+	color: #fff;
+}
+
+
 .form-check-input1, .form-check-input2{
 	margin-left:-1.2em;
 }
 
 .form-check-label{
-	font-size:12px;
+	font-size:14px;
 }
 
 .submit{
@@ -196,4 +222,13 @@ label {
 }
 .table-responsive{
 	width: 100%;
+}
+
+#myDIV {
+  font-size:14px;
+	background-color: #ffff;
+	padding:13px;
+	margin-bottom:2em;
+	border-radius: 5px;
+  display:none;
 }

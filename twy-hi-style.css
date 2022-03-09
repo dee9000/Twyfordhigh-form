@@ -169,6 +169,30 @@ label {
 	display: none;
 
 }
+label {
+	font-weight: bold;
+}
+
+
+/*CHOICE DROP DOWN*/
+.subj-bloc-req{
+	background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 7px auto;
+  width: auto;
+	display:none;
+}
+.subj-bloc-req p{
+	font-size: 18px;
+	text-align: justify;
+	font-weight: bold;
+	color: #623580;
+
+}
+
 
 
 .btn-custom{

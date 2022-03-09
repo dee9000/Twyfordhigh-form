@@ -75,6 +75,39 @@ function repeat2() {
  }
 
 
+
+
+function Reset() {
+    document.getElementById("subject_choice").reset();
+    document.getElementById("subj-bloc-req").style.display = "none";/*show div*/
+    document.getElementById("exampleFormControlSelect1").disabled=false;/*disable dropdown*/
+
+
+}
+
+// Please do not use inline event handlers, use this instead:
+document.getElementById("resetBtn").onclick = function () {
+    Reset();
+}
+
+
+function fieldValidation() {
+
+var name = document.forms['TwyForm']['fname'].value;
+
+if (name === '') {
+  alert('Please enter your name.');
+  return false;
+}
+}
+
+
+
+
+
+
+
+
 /*CHOICE 1*/
 function showDivA(select){
   /*ART*/
@@ -84,9 +117,6 @@ function showDivA(select){
     document.getElementById("block_j_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_j_2").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_j_3").disabled=true;/*disables options in other fields too*/
-
-
-
    }
    /*BUSINESS STUDIES*/
     if(select.value=='business_studies-block-j'){

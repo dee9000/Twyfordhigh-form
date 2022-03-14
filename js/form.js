@@ -91,6 +91,9 @@ document.getElementById("resetBtn").onclick = function () {
 }
 
 
+
+
+//validation function
 function fieldValidation() {
 
 var name = document.forms['TwyForm']['fname'].value;
@@ -339,7 +342,7 @@ function showDivA(select){
 
     /*Biology*/
     if(select.value=='biology-block-m'){
-    document.getElementById('subj-bloc-req-21').style.display = "block";
+    document.getElementById('subj-bloc-req-19').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -350,7 +353,7 @@ function showDivA(select){
     }
 
     if(select.value=='economics-block-m'){
-    document.getElementById('subj-bloc-req-22').style.display = "block";
+    document.getElementById('subj-bloc-req-20').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -360,7 +363,7 @@ function showDivA(select){
     }
 
     if(select.value=='english_lit-block-m'){
-    document.getElementById('subj-bloc-req-23').style.display = "block";
+    document.getElementById('subj-bloc-req-21').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -370,7 +373,7 @@ function showDivA(select){
     }
 
     if(select.value=='Film-studies-block-m'){
-    document.getElementById('subj-bloc-req-24').style.display = "block";
+    document.getElementById('subj-bloc-req-22').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -380,7 +383,7 @@ function showDivA(select){
     }
 
     if(select.value=='geography-block-m'){
-    document.getElementById('subj-bloc-req-25').style.display = "block";
+    document.getElementById('subj-bloc-req-23').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -390,7 +393,7 @@ function showDivA(select){
     }
 
     if(select.value=='music_technology-block-m'){
-    document.getElementById('subj-bloc-req-26').style.display = "block";
+    document.getElementById('subj-bloc-req-24').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -400,7 +403,7 @@ function showDivA(select){
     }
 
     if(select.value=='physics-block-m'){
-    document.getElementById('subj-bloc-req-27').style.display = "block";
+    document.getElementById('subj-bloc-req-25').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -411,7 +414,7 @@ function showDivA(select){
 
 
     if(select.value=='psychology-block-m'){
-    document.getElementById('subj-bloc-req-28').style.display = "block";
+    document.getElementById('subj-bloc-req-26').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_m_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
@@ -432,7 +435,7 @@ function showDivA(select){
     /*BLOCK N IN CHOICE 1*/
 
         if(select.value=='drama-block-n'){
-        document.getElementById('subj-bloc-req-22').style.display = "block";
+        document.getElementById('subj-bloc-req-28').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -442,7 +445,7 @@ function showDivA(select){
         }
 
         if(select.value=='economics-block-n'){
-        document.getElementById('subj-bloc-req-23').style.display = "block";
+        document.getElementById('subj-bloc-req-29').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -452,7 +455,7 @@ function showDivA(select){
         }
 
         if(select.value=='further_mathematics-block-n'){
-        document.getElementById('subj-bloc-req-24').style.display = "block";
+        document.getElementById('subj-bloc-req-30').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -462,7 +465,7 @@ function showDivA(select){
         }
 
         if(select.value=='mathematics-block-n'){
-        document.getElementById('subj-bloc-req-25').style.display = "block";
+        document.getElementById('subj-bloc-req-31').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -472,7 +475,7 @@ function showDivA(select){
         }
 
         if(select.value=='Photography-block-n'){
-        document.getElementById('subj-bloc-req-26').style.display = "block";
+        document.getElementById('subj-bloc-req-32').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -482,7 +485,7 @@ function showDivA(select){
         }
 
         if(select.value=='politics-block-n'){
-        document.getElementById('subj-bloc-req-27').style.display = "block";
+        document.getElementById('subj-bloc-req-33').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -493,7 +496,7 @@ function showDivA(select){
 
 
         if(select.value=='psychology-block-n'){
-        document.getElementById('subj-bloc-req-28').style.display = "block";
+        document.getElementById('subj-bloc-req-34').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -502,7 +505,7 @@ function showDivA(select){
         /*disable group*/
         }
         if(select.value=='spanish-block-n'){
-        document.getElementById('subj-bloc-req-27').style.display = "block";
+        document.getElementById('subj-bloc-req-35').style.display = "block";
         document.getElementById("exampleFormControlSelect1").disabled=true;
         document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/

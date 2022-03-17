@@ -60,7 +60,7 @@ function repeat2() {
 
 /*JAVASCRIPT FOR SUBJECT CHOICES*/
 
-/*ENGINE TO RESET FORM DATA, AS WELL AS DROP DOWN DIV AND RESET*/
+/*ENGINE TO RESET FORM DATA, AS WELL AS DROP DOWN DIV AND RESET
  function clear_reset(){
    document.getElementById("subject_choice").reset();
    document.getElementById("exampleFormControlSelect1").disabled=false;
@@ -69,39 +69,72 @@ function repeat2() {
    document.getElementById("exampleFormControlSelect4").disabled=false;
 
    document.getElementById("block_a").disabled=false;
-   document.getElementByClassName('subj-bloc-req').style.display = "none";/*show div*/
+   document.getElementByClassName('subj-bloc-req').style.display = "none";/*show div
 
 
  }
-
+*/
 
 
 
 function Reset() {
-    document.getElementById("subject_choice").reset();
+    document.getElementById("subject_choice").reset();/*resets options to --select-- */
     document.getElementById("subj-bloc-req").style.display = "none";/*show div*/
-    document.getElementById("exampleFormControlSelect1").disabled=false;/*disable dropdown*/
+    document.getElementById("subj-bloc-req-1").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-2").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-3").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-4").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-5").style.display = "none";/*show div*/
+    
+    document.getElementById("subj-bloc-req-bl-j").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-0-bl-j").style.display = "none";/*show div*/
+    document.getElementById("subj-bloc-req-1-bl-j").style.display = "none";/*show div*/
 
+
+
+
+
+
+
+    /* RESET TO RE-ENABLE DROPDOWNS REMOVES THE GREY*/
+    document.getElementById("exampleFormControlSelect1").disabled=false;/*enables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect2x").disabled=false;/*enables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect3").disabled=false;/*enables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect4").disabled=false;/*enables greyed dropdown*/
+
+    /* RESET TO RE-ENABLE EACH SUBJECT BLOCK GROUP REMOVES THE GREY*/
+    document.getElementById("block_j_0").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_j_1").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_j_2").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_j_3").disabled=false;/*RE-ENABLE options in other fields too*/
+
+    document.getElementById("block_k_0").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_k_1").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_k_2").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_k_3").disabled=false;/*RE-ENABLE options in other fields too*/
+
+    document.getElementById("block_l_0").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_l_1").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_l_2").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_l_3").disabled=false;/*RE-ENABLE options in other fields too*/
+
+    document.getElementById("block_m_0").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_m_1").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_m_2").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_m_3").disabled=false;/*RE-ENABLE options in other fields too*/
+
+    document.getElementById("block_n_0").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_n_1").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_n_2").disabled=false;/*RE-ENABLE options in other fields too*/
+    document.getElementById("block_n_3").disabled=false;/*RE-ENABLE options in other fields too*/
 
 }
+
+
 
 // Please do not use inline event handlers, use this instead:
 document.getElementById("resetBtn").onclick = function () {
     Reset();
-}
-
-
-
-
-//validation function
-function fieldValidation() {
-
-var name = document.forms['TwyForm']['fname'].value;
-
-if (name === '') {
-  alert('Please enter your name.');
-  return false;
-}
 }
 
 

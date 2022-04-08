@@ -79,16 +79,194 @@ function repeat2() {
 
 function Reset() {
     document.getElementById("subject_choice").reset();/*resets options to --select-- */
-    document.getElementById("subj-bloc-req").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-1").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-2").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-3").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-4").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-5").style.display = "none";/*show div*/
-    
-    document.getElementById("subj-bloc-req-bl-j").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-0-bl-j").style.display = "none";/*show div*/
-    document.getElementById("subj-bloc-req-1-bl-j").style.display = "none";/*show div*/
+    /*Clears and resets the div panel for Block j Choice 1*/
+    document.getElementById("subj-bloc-req").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-0").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-1").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-2").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-3").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-4").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-5").style.display = "none";/*hide div*/
+    /*Clears and resets the div panel for Block k Choice 1*/
+    document.getElementById("subj-bloc-req-6").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-7").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-8").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-9").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-10").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-11").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-12").style.display = "none";/*hide div*/
+    /*Clears and resets the div panel for Block L Choice 1*/
+    document.getElementById("subj-bloc-req-13").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-14").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-15").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-16").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-17").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-18").style.display = "none";/*hide div*/
+    /* Clears and resets the div panel for Block M Choice 1*/
+    document.getElementById("subj-bloc-req-19").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-20").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-21").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-22").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-23").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-24").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-25").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-26").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-27").style.display = "none";/*hide div*/
+    /* Clears and resets the div panel for Block N Choice 1*/
+    document.getElementById("subj-bloc-req-28").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-29").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-30").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-31").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-32").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-33").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-34").style.display = "none";/*hide div*/
+    document.getElementById("subj-bloc-req-35").style.display = "none";/*hide div*/
+
+
+
+
+    /* Clears and resets the div panel for Block J Choice 2*/
+    document.getElementById("subj-bloc-req-bl-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-0-bl-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-1-bl-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-2-bl-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-bl-3-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-4-bl-j").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-5-bl-j").style.display = "none";/*hides div panel*/
+    /* Clears and resets the div panel for Block k Choice 2*/
+    document.getElementById("subj-bloc-req-6-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-7-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-8-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-9-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-10-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-11-bl-k").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-12-bl-k").style.display = "none";/*hides div panel*/
+    /* Clears and resets the div panel for Block l Choice 2*/
+    document.getElementById("subj-bloc-req-13-bl-l").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-14-bl-l").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-15-bl-l").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-16-bl-l").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-17-bl-l").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-18-bl-l").style.display = "none";/*hides div panel*/
+    /* Clears and resets the div panel for Block m Choice 2*/
+    document.getElementById("subj-bloc-req-19-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-20-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-21-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-22-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-23-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-24-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-25-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-26-bl-m").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-27-bl-m").style.display = "none";/*hides div panel*/
+    /* Clears and resets the div panel for Block n Choice 2*/
+    document.getElementById("subj-bloc-req-28-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-29-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-30-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-31-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-32-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-33-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-34-bl-n").style.display = "none";/*hides div panel*/
+    document.getElementById("subj-bloc-req-35-bl-n").style.display = "none";/*hides div panel*/
+
+
+
+        /* Clears and resets the div panel for Block J Choice 3*/
+        document.getElementById("subj-bloc-req-bl-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-0-bl-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-1-bl-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-2-bl-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-bl-3-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-4-bl-j1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-5-bl-j1").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block k Choice 3*/
+        document.getElementById("subj-bloc-req-6-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-7-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-8-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-9-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-10-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-11-bl-k1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-12-bl-k1").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block l Choice 3*/
+        document.getElementById("subj-bloc-req-13-bl-l1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-14-bl-l1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-15-bl-l1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-16-bl-l1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-17-bl-l1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-18-bl-l1").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block m Choice 3*/
+        document.getElementById("subj-bloc-req-19-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-20-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-21-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-22-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-23-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-24-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-25-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-26-bl-m1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-27-bl-m1").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block n Choice 3*/
+        document.getElementById("subj-bloc-req-28-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-29-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-30-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-31-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-32-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-33-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-34-bl-n1").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-35-bl-n1").style.display = "none";/*hides div panel*/
+
+
+        /* Clears and resets the div panel for Block J Choice 4*/
+        document.getElementById("subj-bloc-req-bl-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-0-bl-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-1-bl-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-2-bl-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-bl-3-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-4-bl-j3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-5-bl-j3").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block k Choice 4*/
+        document.getElementById("subj-bloc-req-6-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-7-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-8-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-9-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-10-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-11-bl-k3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-12-bl-k3").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block l Choice 4*/
+        document.getElementById("subj-bloc-req-13-bl-l3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-14-bl-l3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-15-bl-l3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-16-bl-l3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-17-bl-l3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-18-bl-l3").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block m Choice 4*/
+        document.getElementById("subj-bloc-req-19-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-20-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-21-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-22-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-23-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-24-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-25-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-26-bl-m3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-27-bl-m3").style.display = "none";/*hides div panel*/
+        /* Clears and resets the div panel for Block n Choice 4*/
+        document.getElementById("subj-bloc-req-28-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-29-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-30-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-31-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-32-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-33-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-34-bl-n3").style.display = "none";/*hides div panel*/
+        document.getElementById("subj-bloc-req-35-bl-n3").style.display = "none";/*hides div panel*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,10 +275,10 @@ function Reset() {
 
 
     /* RESET TO RE-ENABLE DROPDOWNS REMOVES THE GREY*/
-    document.getElementById("exampleFormControlSelect1").disabled=false;/*enables greyed dropdown*/
-    document.getElementById("exampleFormControlSelect2x").disabled=false;/*enables greyed dropdown*/
-    document.getElementById("exampleFormControlSelect3").disabled=false;/*enables greyed dropdown*/
-    document.getElementById("exampleFormControlSelect4").disabled=false;/*enables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect1").disabled=false;/*disaables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect2x").disabled=false;/*disaables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect3").disabled=false;/*disaables greyed dropdown*/
+    document.getElementById("exampleFormControlSelect4").disabled=false;/*disaables```````````````````````` greyed dropdown*/
 
     /* RESET TO RE-ENABLE EACH SUBJECT BLOCK GROUP REMOVES THE GREY*/
     document.getElementById("block_j_0").disabled=false;/*RE-ENABLE options in other fields too*/
@@ -128,7 +306,20 @@ function Reset() {
     document.getElementById("block_n_2").disabled=false;/*RE-ENABLE options in other fields too*/
     document.getElementById("block_n_3").disabled=false;/*RE-ENABLE options in other fields too*/
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -177,7 +368,7 @@ function showDivA(select){
 
    /*ENGLISH LITERATURE*/
      if(select.value=='english_lit-block-j'){
-    document.getElementById('subj-bloc-req-3').style.display = "block";
+    document.getElementById('subj-bloc-req-2').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_j_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_j_2").disabled=true;/*disables options in other fields too*/
@@ -302,10 +493,12 @@ function showDivA(select){
 
     /*disable group*/
    }
+
+
    /*BLOCK L SUBJECTS IN CHOICE 1*/
    /*Biology*/
     if(select.value=='biology-block-l'){
-    document.getElementById('subj-bloc-leq-13').style.display = "block";
+    document.getElementById('subj-bloc-req-13').style.display = "block";
     document.getElementById("exampleFormControlSelect1").disabled=true;
     document.getElementById("block_l_1").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_l_2").disabled=true;/*disables options in other fields too*/
@@ -742,7 +935,7 @@ function showDivB(select){
 
 
 
-    /*BLOCK m SUBJECTS IN CHOICE 2*/
+    /*BLOCK M SUBJECTS IN CHOICE 2*/
 
     /*Biology*/
     if(select.value=='biology-block-m'){
@@ -816,11 +1009,19 @@ function showDivB(select){
     document.getElementById("block_m_3").disabled=true;/*disables options in other fields too*/
     /*disable group*/
     }
+    if(select.value=='religious-studies-block-m'){
+    document.getElementById('subj-bloc-req-27-bl-m').style.display = "block";
+    document.getElementById("exampleFormControlSelect2x").disabled=true;
+    document.getElementById("block_m_0").disabled=true;/*disables options in other fields too*/
+    document.getElementById("block_m_2").disabled=true;/*disables options in other fields too*/
+    document.getElementById("block_m_3").disabled=true;/*disables options in other fields too*/
+    /*disable group*/
+    }
 
 /* BLOCK N CHOICE 2*/
 
         if(select.value=='drama-block-n'){
-        document.getElementById('subj-bloc-req-20-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-28-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -829,7 +1030,7 @@ function showDivB(select){
         }
 
         if(select.value=='economics-block-n'){
-        document.getElementById('subj-bloc-req-21-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-29-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -838,7 +1039,7 @@ function showDivB(select){
         }
 
         if(select.value=='further_mathematics-block-n'){
-        document.getElementById('subj-bloc-req-22-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-30-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -847,7 +1048,7 @@ function showDivB(select){
         }
 
         if(select.value=='mathematics-block-n'){
-        document.getElementById('subj-bloc-req-23-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-31-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -856,7 +1057,7 @@ function showDivB(select){
         }
 
         if(select.value=='Photography-block-n'){
-        document.getElementById('subj-bloc-req-24-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-32-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -865,7 +1066,7 @@ function showDivB(select){
         }
 
         if(select.value=='politics-block-n'){
-        document.getElementById('subj-bloc-req-25-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-33-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -874,7 +1075,7 @@ function showDivB(select){
         }
 
         if(select.value=='psychology-block-n'){
-        document.getElementById('subj-bloc-req-26-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-34-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -882,7 +1083,7 @@ function showDivB(select){
         /*disable group*/
         }
         if(select.value=='spanish-block-n'){
-        document.getElementById('subj-bloc-req-26-bl-m').style.display = "block";
+        document.getElementById('subj-bloc-req-35-bl-n').style.display = "block";
         document.getElementById("exampleFormControlSelect2x").disabled=true;
         document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
         document.getElementById("block_n_2").disabled=true;/*disables options in other fields too*/
@@ -1507,7 +1708,7 @@ function showDivD(select){
     /*disable group*/
     }
 
-    /*BLOCK n*/
+    /*BLOCK N*/
     if(select.value=='drama-block-n'){
     document.getElementById('subj-bloc-req-28-bl-n3').style.display = "block";
     document.getElementById("exampleFormControlSelect4").disabled=true;
@@ -1550,7 +1751,7 @@ function showDivD(select){
     /*disable group*/
     }
     if(select.value=='politics-block-n'){
-    document.getElementById('subj-bloc-req-33-bl-m3').style.display = "block";
+    document.getElementById('subj-bloc-req-33-bl-n3').style.display = "block";
     document.getElementById("exampleFormControlSelect4").disabled=true;
     document.getElementById("block_n_0").disabled=true;/*disables options in other fields too*/
     document.getElementById("block_n_1").disabled=true;/*disables options in other fields too*/
@@ -1578,25 +1779,6 @@ function showDivD(select){
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
